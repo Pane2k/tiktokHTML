@@ -23,7 +23,7 @@ function timeNotTwoDigits(number) {
 const HEARTBEAT_INTERVAL = 1000; // Интервал heartbeat в миллисекундах
 const HEARTBEAT_VALUE = 1;     // Значение heartbeat-сообщения
 const RECONNECT_INTERVAL = 1000; // Интервал переподключения в миллисекундах
-let WS_URL = "ws://localhost:8001";
+let WS_URL = "ws://213.148.25.148:8001";
 
 let afterQ = document.location.href.split('?=')[1]
 if (afterQ){
